@@ -1,10 +1,10 @@
-import { ComponentProps } from "react";
+import { ComponentProps, ReactNode } from "react";
 import { TooltipContent } from "./styles";
 import * as TooltipRadix from '@radix-ui/react-tooltip';
 
 export interface TooltipProps extends ComponentProps<typeof TooltipContent> {
-    trigger: React.ReactNode
-    children: React.ReactNode
+    trigger: ReactNode
+    children: ReactNode
 }
 
 export function Tooltip({ trigger, children, ...props }: TooltipProps) {
