@@ -10,9 +10,9 @@
 - [X] Text area
 - [X] Selection field
 - [X] Multi Selection field
-- [] Switch
+- [X] Switch
 - [X] Skeleton
-- [] Dropdown
+- [X] Dropdown
 - [X] Tooltip
 - [X] Breadcrumb
 - [X] Heading
