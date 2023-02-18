@@ -1,0 +1,8 @@
+{
+    "extends": ["@slat-ui/eslint-config"],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+
+    }
+}
