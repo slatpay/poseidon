@@ -9,12 +9,18 @@ export default {
       <>
         <Text>Testando</Text>
       </>
-    )
+    ),
+    isTransparency: false
   },
   argTypes: {
     children: {
       control: {
         type: null
+      }
+    },
+    isTransparency: {
+      control: {
+        type: 'boolean'
       }
     }
   },
