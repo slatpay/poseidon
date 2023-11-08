@@ -25,15 +25,17 @@ const tooltipCloseAnimation = keyframes({
 
 export const TooltipContent = styled(Tooltip.Content, {
 
-    width: '210px',
-    padding: '$3 $4',
+    padding: '$3',
     display: 'flex',
     gap: '$2',
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
-    background: '#00000050',
+    background: '$background-input',
+    borderRadius: '$md',
     border: '1px solid $border',
+    position: 'relative',
+    zIndex: 999,
     animation: `${tooltipOpenAnimation} 600ms ease`,
     willChange: 'transform, opacity',
     '&[data-state="closed"]': {

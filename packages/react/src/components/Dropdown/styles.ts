@@ -29,6 +29,7 @@ const dropDownCloseAnimation = keyframes({
 export const DropdownContent = styled(Dropdown.Content, {
 
     background: '#00000070',
+    backdropFilter: 'blur(10px)',
     border: '1px solid $border',
     color: '$text-title',
     fontFamily: '$default',

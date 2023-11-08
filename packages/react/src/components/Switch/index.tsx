@@ -3,11 +3,11 @@ import { SwitchRoot, SwitchThumb } from "./styles";
 
 export interface SwitchProps extends ComponentProps<typeof SwitchRoot> {}
 
-export function Switch() {
+export function Switch({ ...props }: SwitchProps) {
 
     return (
-        <SwitchRoot>
-            <SwitchThumb />
+        <SwitchRoot {...props} >
+            <SwitchThumb/>
         </SwitchRoot>
     )
 

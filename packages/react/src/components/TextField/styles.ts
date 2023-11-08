@@ -7,7 +7,7 @@ export const TextFieldContainer = styled('div', {
     boxSizing: 'border-box',
     border: '2px solid $border',
     display: 'flex',
-    minWidth: '300px',
+    minWidth: '200px',
     alignItems: 'center',
     transition: 'all 300ms ease',
 
